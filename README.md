@@ -42,7 +42,7 @@ Validasyon kontrolü için Automapper,DTO ve FluentValidation kullanıldı.
 <img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/t23.png" width="100%" height="300px">
 <img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/t12.PNG" width="100%" height="250px">
 <img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/13.PNG" width="100%" height="250px">
-<img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/t13.png" width="100%" height="250px">
+<img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/t13.PNG" width="100%" height="250px">
 <img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/t14.PNG" width="100%" height="250px">
 <img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/t15.PNG" width="100%" height="350px">
 <img src="https://github.com/AysenurBALKAN/Travel/blob/main/TravelCoreProject/traversal_pictures/t16.PNG" width="100%" height="250px">
