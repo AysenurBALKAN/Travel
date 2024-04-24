@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<!-- =========================================================
+* Sneat - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
+==============================================================
+
+* Product Page: https://themeselection.com/products/sneat-bootstrap-html-admin-template/
+* Created by: ThemeSelection
+* License: You must have a valid license purchased in order to legally use the theme for your project.
+* Copyright ThemeSelection (https://themeselection.com)
+
+=========================================================
+ -->
+<!-- beautify ignore:start -->
+<html lang="en"
+      class="light-style layout-menu-fixed"
+      dir="ltr"
+      data-theme="theme-default"
+      data-assets-path="../assets/"
+      data-template="vertical-menu-template-free">
+<body>
+    <!-- Layout wrapper -->
+    <div class="row">
+        @await Component.InvokeAsync("_DashboardBanner")
+        @await Component.InvokeAsync("_Card1Statistics")
+        <!-- Total Revenue -->
+        @await Component.InvokeAsync("_TotalRevenue")
+        <!--/ Total Revenue -->
+        @await Component.InvokeAsync("_Card2Statistics")
+    </div>
+    <div class="row">
+        <!-- Order Statistics -->
+        @await Component.InvokeAsync("_DestinationStatistics")
+        <!--/ Order Statistics -->
+        <!-- Expense Overview -->
+        @await Component.InvokeAsync("_DestinationStatistics2")
+        <!--/ Expense Overview -->
+        <!-- Transactions -->
+        @await Component.InvokeAsync("_GuideListAdmin")
+        <!--/ Transactions -->
+    </div>
+                  
+                    <!-- / Content -->
+                    <!-- Footer -->
+                
+                    <!-- / Footer -->
+
+                    <div class="content-backdrop fade"></div>
+             
+                <!-- Content wrapper -->
+         
+            <!-- / Layout page -->
+      
+
+        <!-- Overlay -->
+        <div class="layout-overlay layout-menu-toggle"></div>
+ 
+    <!-- / Layout wrapper -->
+
+    <div class="buy-now">
+        <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
+           target="_blank"
+           class="btn btn-danger btn-buy-now">Upgrade to Pro</a>
+    </div>
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+
+
+
+    <!-- endbuild -->
+    <!-- Vendors JS -->
+    <script src="~/sneat-1.0.0/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+    <!-- Main JS -->
+    <!-- Page JS -->
+    <script src="~/sneat-1.0.0/assets/js/dashboards-analytics.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+ 
+</body>
+</html>
+
+
